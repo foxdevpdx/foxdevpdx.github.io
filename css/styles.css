@@ -2,12 +2,13 @@
     background: linear-gradient(0.25turn, #3f87a6, #aed293, #f69d3c);
 } */
 
-h1 {
+
+.title {
     padding: 1em;
-    margin: 0 auto;
 }
 
-main {
+.main {
     margin: 0 auto;
     padding: 2em;
 }
+
