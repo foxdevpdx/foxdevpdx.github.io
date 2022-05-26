@@ -18,39 +18,71 @@
   </head>
   <body>
     <header>
-      <h1>Devon Fox</h1>
-      <nav>
-        <ul>
-          <li><a class="nav-link active" href="#">home</a></li>
-          <li><a class="nav-link" href="#about">about</a></li>
-          <li><a class="nav-link" href="#work">previous work</a></li>
-          <li><a class="nav-link" href="#projects">projects</a></li>
-          <li><a class="nav-link" href="#contact">contact</a></li>
-        </ul>
+      <h1></h1>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Devon Fox</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link active" href="#">home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+              <li class="nav-item"><a class="nav-link" href="#work">previous work</a></li>
+              <li class="nav-item"><a class="nav-link" href="#projects">projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="#links">links</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <main id="main" class="main">
-      <div>
-        <h3>about</h3>
+      <div id="about">
+        <span>
+          <h3>about</h3>
 
-        <p>About me ~</p>
+          <p>
+            A senior Computer Science student at
+            <a
+              href="https://www.pdx.edu/computer-science/"
+              target="_blank"
+              class="link-dark"
+              >Portland State University</a
+            >, currently finishing an Undergraduate degree. In addition, an avid
+            musician and sound designer having worked with major synthesizer
+            companies from around the globe. Currently an intern in the PSU's
+            PCEP program with Act-On since July 2022.
+          </p>
+        </span>
       </div>
-      <div>
+      <div id="work">
         <h3>previous work</h3>
-        <p>
-            maybe resume here
-        </p>
+        <p>maybe resume here</p>
       </div>
-      <div>
+      <div id="projects">
         <h3>projects</h3>
-        <p>
-            information about past projects
-        </p>
+        <ul>
+          <li>Generative Midi Musicbox</li>
+          <li>Wonderbread Synth</li>
+          <li>This website :)</li>
+          <li>More incoming!</li>
+        </ul>
       </div>
-      <h3>contact</h3>
-      <p>
-          a link or a form here to contact me
-      </p>
+      <div id="contact">
+        <h3>contact</h3>
+        <p>a link or a form here to contact me</p>
+      </div>
     </main>
   </body>
 </html>
