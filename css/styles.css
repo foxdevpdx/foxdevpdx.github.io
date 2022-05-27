@@ -4,9 +4,10 @@
 
 .title {
   padding: 1em;
+  /* margin-left: 3px; */
 }
 
 .main {
-  margin: 0 auto;
-  padding: 2em;
+  margin: 2em 2em;
+  /* padding: 2em; */
 }
