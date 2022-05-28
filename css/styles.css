@@ -1,11 +1,6 @@
 /* body {
-    background: linear-gradient(0.25turn, #3f87a6, #aed293, #f69d3c);
+  background: linear-gradient(0.25turn, #3f87a6, #aed293, #f69d3c);
 } */
-
-.title {
-  padding: 1em;
-  /* margin-left: 3px; */
-}
 
 .main {
   margin: 2em 2em;
