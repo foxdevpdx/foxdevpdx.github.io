@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Devon Fox</title>
-    <link rel="stylesheet" href="css/styles.css" />
 
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 
@@ -15,20 +14,18 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body class="mx-4 mt-2">
     <header>
-      <h1 class="display-1 mx-3 p-3">Devon Fox</h1>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"
-      ></script>
-      <div>
-        <nav class="navbar navbar-expand-sm mx-3 p-2">
-          <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="#">Devon Fox</a> -->
+      <!-- <div class="row">
+        <span class="col-sm-6"><h1 class="display-2">Devon Fox</h1></span>
+      </div> -->
 
+      <div>
+        <nav class="navbar navbar-expand-sm">
+          <div class="container-fluid topnav">
+            <a class="navbar-brand" href="#">Devon Fox</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -43,24 +40,25 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >home</a
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    id="firstnav"
+                    href="index.html"
+                    >about</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">about</a>
+                  <a class="nav-link disabled" href="#">previous work</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="work.html">previous work</a>
+                  <a class="nav-link disabled" href="#">projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="projects.html">projects</a>
+                  <a class="nav-link disabled" href="#">links</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#links">links</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#contact">contact</a>
+                  <a class="nav-link disabled" href="#">contact</a>
                 </li>
               </ul>
             </div>
@@ -68,11 +66,47 @@
         </nav>
       </div>
     </header>
-    <main id="main" class="main">
-      <div id="contact">
-        <h2 class="pb-3 mx-2">contact</h2>
-        <p>a link or a form here to contact me</p>
+    <main id="main" class="main pt-3 ml-4">
+      <div id="about container">
+        <div class="row">
+          <span class="col-xs-12 col-sm-6">
+            <img
+              class="img-fluid rounded-3 border-0 my-2"
+              src="images/profile.jpeg"
+              alt="profile photo"
+            />
+          </span>
+          <span class="col-xs-12 col-sm-6">
+            <div class="mx-auto">
+              <p>
+                Hello! I'm <b>Devon Fox</b>, a senior Computer Science student
+                at
+                <a
+                  href="https://www.pdx.edu/computer-science/"
+                  target="_blank"
+                  class="link-dark"
+                  >Portland State University</a
+                >, currently finishing an Undergraduate degree. Currently,
+                beginning my first rotation as an intern in PSU's PCEP program
+                with Act-On starting July 2022.
+              </p>
+              <p>
+                As a musician of 20+ years, and an avid sound designer heavily
+                interested in synthesizers, I hope to create more audio/DSP
+                software in my spare-time. In industry, I hope to gain more
+                insight into front and back-end web applications as well as gain
+                insight into desktop development as well.
+              </p>
+              <p>Feel free to contact me if you have any questions!</p>
+            </div>
+          </span>
+        </div>
       </div>
     </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

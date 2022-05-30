@@ -1,8 +1,11 @@
-/* body {
-  background: linear-gradient(0.25turn, #3f87a6, #aed293, #f69d3c);
-} */
-
-.main {
-  margin: 2em 2em;
-  /* padding: 2em; */
+body {
+  background: rgb(255, 218, 167);
 }
+
+.topnav {
+  padding: 0;
+}
+
+/* .nav-link#firstnav {
+  padding-left: 0;
+} */
