@@ -6,6 +6,19 @@ body {
   padding: 0;
 }
 
-/* .nav-link#firstnav {
-  padding-left: 0;
+/* Keeping to potentially alter logo candidates */
+
+#logo {
+  /* width: 25%; */
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* .nav-item {
+  font-weight: bold;
 } */
+
+#header {
+  margin-top: 6px;
+  padding-right: 10px;
+}
