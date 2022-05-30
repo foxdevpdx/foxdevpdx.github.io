@@ -1,5 +1,6 @@
 body {
   background: rgb(255, 218, 167);
+  /* ffdaa7 background color code*/
 }
 
 .topnav {
@@ -14,11 +15,26 @@ body {
   margin-right: 10px;
 }
 
-/* .nav-item {
-  font-weight: bold;
-} */
+.nav-item {
+  font-size: 1.2em;
+}
 
 #header {
-  margin-top: 6px;
+  margin-top: 7px;
   padding-right: 10px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#github {
+  height: 40px;
+}
+
+.small {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
 }
