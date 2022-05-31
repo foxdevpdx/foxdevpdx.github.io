@@ -39,15 +39,15 @@ body {
 }
 
 .btn:hover {
-  color: #314d36;
-  background: rgb(255, 218, 167);
+  color: #ffffff;
+  background: #4e8657;
   border-color: #314d36;
   border: 2px;
 }
 
 .btn:focus {
-  color: #314d36;
-  background: rgb(255, 218, 167);
+  color: #ffffff;
+  background: #4e8657;
   border-color: #314d36;
   border: 2px;
 }
