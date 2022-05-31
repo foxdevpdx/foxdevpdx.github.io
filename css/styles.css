@@ -7,16 +7,14 @@ body {
   padding: 0;
 }
 
-/* Keeping to potentially alter logo candidates */
+.nav-item {
+  font-size: 1.2em;
+}
 
 #logo {
   /* width: 25%; */
   height: 40px;
   margin-right: 10px;
-}
-
-.nav-item {
-  font-size: 1.2em;
 }
 
 #header {
