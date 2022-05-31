@@ -42,9 +42,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" id="firstnav" href="index.html"
-                        >about</a
-                      >
+                      <a class="nav-link" href="index.html">about</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">skills</a>
@@ -72,8 +70,57 @@
       <div id="about container">
         <div class="row">
           <span class="col-xl-3"></span>
-          <span class="col-xs-12 col-sm-6 col-xl-6">
-            <div>Hello</div>
+          <span class="col-xs-12 col-sm-6 col-xl-3 mb-3">
+            <div class="card mx-auto" style="width: 100%">
+              <img
+                src="images/midiproj.jpg"
+                class="card-img-top project-image"
+                alt="web site project thumbnail"
+              />
+              <div class="card card-box">
+                <h5 class="card-title mx-auto my-2">
+                  Generative Midi Musicbox
+                </h5>
+                <p class="card-text mx-3">
+                  A Rust library/binary crate that sends looping randomly
+                  generated MIDI signals defined by user input via an external
+                  MIDI input to an external MIDI source.
+                </p>
+
+                <a
+                  href="https://gitlab.cecs.pdx.edu/foxdev/generative-midi-musicbox"
+                  target="_blank"
+                  id="web-button"
+                  class="btn btn-primary mb-3"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+          </span>
+          <span class="col-xs-12 col-sm-6 col-xl-3 mb-3">
+            <div class="card mx-auto" style="width: 100%">
+              <img
+                src="images/webproj.jpg"
+                class="card-img-top project-image"
+                alt="web site project thumbnail"
+              />
+              <div class="card">
+                <h5 class="card-title mx-auto my-2">foxdevpdx.github.io</h5>
+                <p class="card-text mx-3">
+                  This site was made as the final project of CS410: Intro to Web
+                  Development taught by Caterina Paun at Portland State
+                  University. It was created by me using Bootstrap 5.2 beta.
+                </p>
+
+                <a
+                  href="https://github.com/foxdevpdx/foxdevpdx.github.io"
+                  target="_blank"
+                  id="web-button"
+                  class="btn btn-primary mb-3"
+                  >Source Code</a
+                >
+              </div>
+            </div>
           </span>
           <!-- <span></span> -->
         </div>
@@ -83,7 +130,17 @@
         <span class="col-xl-6"
           ><div class="footer">
             <a href="http://www.github.com/devonfox" target="_blank">
-              <img id="github" alt="github icon" src="images/github.svg"
+              <img
+                id="github"
+                class="footer-logo"
+                alt="github icon"
+                src="images/github.svg" /></a
+            ><a href="http://www.twitter.com/devonwho" target="_blank"
+              ><img
+                id="twitter"
+                class="footer-logo"
+                src="images/twitter.svg"
+                alt="twitter icon"
             /></a></div
         ></span>
         <span class="col-xl-3"></span>
