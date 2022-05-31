@@ -34,7 +34,7 @@ body {
 
 .btn {
   color: rgb(255, 255, 255);
-  background: #314d36;
+  background: #314d36; /* logo color */
   border: rgb(255, 218, 167);
 }
 
