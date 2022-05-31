@@ -27,12 +27,46 @@ body {
   margin-top: 20px;
 }
 
-#github {
+.footer-logo {
   height: 40px;
+  margin: 10px 10px;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  background: #314d36;
+  border: rgb(255, 218, 167);
+}
+
+.btn:hover {
+  color: #314d36;
+  background: rgb(255, 218, 167);
+  border-color: #314d36;
+  border: 2px;
+}
+
+.btn:focus {
+  color: #314d36;
+  background: rgb(255, 218, 167);
+  border-color: #314d36;
+  border: 2px;
+}
+
+#web-button {
+  margin: 0 auto;
 }
 
 .small {
   margin-top: 10px;
   text-align: center;
   font-size: 12px;
+}
+
+.card {
+  background-color: rgb(252, 237, 215);
+}
+
+.project-image {
+  height: 100%;
+  width: 100%;
 }
