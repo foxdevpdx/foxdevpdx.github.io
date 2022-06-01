@@ -12,7 +12,6 @@ body {
 }
 
 #logo {
-  /* width: 25%; */
   height: 40px;
   margin-right: 10px;
 }
@@ -70,6 +69,10 @@ body {
 }
 
 #web-button {
+  color: rgb(255, 255, 255);
+  background: #314d36; /* logo color */
+  border: 2px solid #314d36;
+  width: 140px;
   margin: 0 auto;
 }
 
