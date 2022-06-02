@@ -71,12 +71,13 @@
         <div class="row">
           <span class="col-sm-2 col-lg-3 col-xxl-4"></span>
           <span class="col-xs-12 col-sm-8 col-lg-6 col-xxl-4">
-            <form>
-              <div class="form-group">
+            <form id="contact-form" action="https://hooks.zapier.com/hooks/catch/12637886/baobev7/" type="POST">
+              <div  class="form-group">
                 <div class="mb-3">
                   <label for="name" class="form-label">Your Name</label>
                   <input
                     type="name"
+                    name="name"
                     class="form-control"
                     id="name"
                     placeholder="Tell me your name"
@@ -86,6 +87,7 @@
                   <label for="email" class="form-label">Email address</label>
                   <input
                     type="email"
+                    name="email"
                     class="form-control"
                     id="email"
                     placeholder="name@example.com"
@@ -96,12 +98,18 @@
                   <textarea
                     class="form-control"
                     id="comment"
+                    name="comment"
                     rows="3"
                     placeholder="Ask Away!"
                   ></textarea>
                 </div>
                 <div class="mb-3">
-                  <button type="submit" class="btn btn-primary" value="Submit">
+                  <button
+                    type="submit"
+                    id="form-submit"
+                    class="btn btn-primary"
+                    value="Submit"
+                  >
                     Submit
                   </button>
                   <button
