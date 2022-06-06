@@ -3,8 +3,6 @@ $(document).ready(function () {
     'https://api.openweathermap.org/data/2.5/weather?lat=45.5152&lon=-122.6784&appid=0a8f59036af137c0dc466abd93781d1c&units=imperial';
 
   const weatherCall = (weather) => {
-    // let today = Date();
-    // console.log(today)
     $('#weather').append(
       $('<span>')
         .css({
@@ -18,7 +16,6 @@ $(document).ready(function () {
       type: 'GET',
       url: url,
       success: (data) => {
-        console.log(data);
         weatherCall(data);
       },
       error: (error) => {
